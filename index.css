@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+body {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+.container {
+  width: 100%;
+  background-color: white;
+}
+.main {
+  display: flex;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  width: 15%;
+  background-color: #063970;
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.content {
+  padding: 10px;
+  width: 85%;
+  border-width: 0.2px 0.2px 0.2px 0;
+  border-style: solid;
+  border-color: rgba(99, 99, 99, 0.479);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.h-1 {
+  color: #063970;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.h-2 {
+  color: #395c7c;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.f-div {
+  display: flex;
+  position: relative;
+}
+.f-div .text {
+  font-size: 13px;
+  color: #5a5a5a;
+}
+.f-div .text-b {
+  font-size: 18px;
+  color: #063970;
+  font-weight: bold;
+  margin-left: 22px;
+  margin-top: -16px;
+}
+.f-div .icon {
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #063970;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-div .icon-b {
+  border-radius: 50%;
+  background-color: #063970;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -11px;
+  top: -20px;
+}
+
+.icon-sm {
+  width: 10px;
+  height: 10px;
+  color: white;
+}
+
+.icon-bg {
+  width: 15px;
+  height: 15px;
+  color: white;
+  margin-right: 1px;
+}
+
+.m-text {
+  color: #5a5a5a;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.part-b {
+  margin-top: 40px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+.c-div {
+  border-width: 0 0 0 1.5px;
+  border-color: #cacaca;
+  border-style: solid;
+  margin-left: 15px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.c-div .h-div {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+
+.h-div svg {
+  position: absolute;
+  top: 5px;
+  left: -4px;
+}
+
+.h-div .date {
+  font-size: 11px;
+  color: #ffffff;
+  position: absolute;
+  font-weight: bold;
+  top: 3px;
+}
+
+.c-h1 {
+  color: #383838;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 24px;
+}
+
+.c-h1-sm {
+  color: #383838;
+  font-size: 14px;
+  margin-left: 24px;
+}
+
+.c-h2 {
+  color: #383838;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 24px;
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.rating {
+  display: flex;
+}
+.rating .rate-c {
+  margin-right: 2px;
+  background-color: #063970;
+  border-radius: 10px;
+  padding: 4px;
+}
